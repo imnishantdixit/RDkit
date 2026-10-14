@@ -1,0 +1,6 @@
+# Sample SMILES file for RDKit Lab
+CC(=O)OC1=CC=CC=C1C(=O)O Aspirin
+CN1C=NC2=C1C(=O)N(C(=O)N2C)C Caffeine
+CC(C)Cc1ccc(cc1)C(C)C(=O)O Ibuprofen
+CC(=O)Nc1ccc(O)cc1 Paracetamol
+NCCc1ccc(O)c(O)c1 Dopamine

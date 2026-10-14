@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rdkit-lab
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api.php?action=health

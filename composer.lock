@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "18d509522b61e996efa3f1a4b93c0054",
+    "packages": [
+        {
+            "name": "ankane/rdkit",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ankane/rdkit-php.git",
+                "reference": "1743c028198a8201492c62895bae0d0eb8ea341b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ankane/rdkit-php/zipball/1743c028198a8201492c62895bae0d0eb8ea341b",
+                "reference": "1743c028198a8201492c62895bae0d0eb8ea341b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ffi": ">= 8.1",
+                "php": ">= 8.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RDKit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Kane",
+                    "email": "andrew@ankane.org"
+                }
+            ],
+            "description": "Cheminformatics for PHP, powered by RDKit",
+            "support": {
+                "issues": "https://github.com/ankane/rdkit-php/issues",
+                "source": "https://github.com/ankane/rdkit-php"
+            },
+            "time": "2025-10-01T16:53:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}
